@@ -27,6 +27,9 @@ class ListsController < ApplicationController
     redirect_to list_path(list.id)
   end
   
+  def destroy
+  end
+  
   private
   
   def list_params
